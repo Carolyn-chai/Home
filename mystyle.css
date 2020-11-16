@@ -1,0 +1,168 @@
+body{
+    background-color:#FFF8DC;
+    background-repeat:5;
+    color:white;
+    text-align:center;
+}
+
+h2{
+    font-weight:bolder;
+	font-family:"Courier New", Courier, monospace;
+	color:black;
+}
+
+h3{
+	font-family:"Courier New", Courier, monospace;
+	color:black;
+}
+
+
+h1{
+    color:#000000;
+	font:bolder;
+}
+
+/*button and containers*/
+#more{/**content "container"**/
+    border:7px double #000000;
+	margin-right:40px;
+	background-color:white;
+	padding:5px;
+}
+#sources{
+	border:1px solid #000000;
+	margin-right:40px;
+	background-color:#FFF8DC;
+	padding:5px;
+	font-size:10px;
+	text-align:left;
+}
+
+#collage{/*image layouts*/
+	border:dashed #000000;
+
+}
+
+#fav{
+	color:black;
+}
+
+#container {
+	height: 100%; width:100%; font-size: 0;
+	color:black;
+	font-size:10px;
+	width: 400px;
+	height:300px;
+	text-align:center;
+	}
+#left, #middle, #right {
+	display: inline-block; zoom: 1; vertical-align: top; 
+	color:black;
+	font-size:20px;
+	width: 400px;
+	height:300px;
+	text-align:center;
+	}
+#left {
+	width: 25%;
+	
+	}
+#middle {
+	width: 25%; 
+	
+	}
+
+#right {
+	width: 25%;
+
+	}
+
+.navigation{ /**Style for the "main menu"**/
+    float:left;
+    border:7px outset black;
+	padding:15px;
+	padding-right:45px;
+    width:15%;
+	margin-left:40px;
+	background-color:white;
+}
+/** Styles for the "buttons" **/
+a{
+    border: 1px groove #000000; /* sets the border to make it look like a button */
+    text-decoration:none; /* removes the underline from the link */
+    color:black;
+    background-color:#E6E6FA;
+	
+	/* adds space between links */
+}
+
+ul{/**"button" text**/
+    list-style:none;
+	font-size:20px;
+	text-align:center;
+	background-color:white;
+}
+
+
+
+.content{/**content text**/
+    float:right;
+    width:70%;
+}
+
+.interestc1 li{
+	color:black;
+	font-size:20px;
+	width: 400px;
+	height:300px;
+	text-align:center;
+}	
+.interestc1 img{
+	width: 400px;
+	height:300px;
+	margin: auto;
+	border: 3px solid black;
+	padding: 10px;
+	text-align:center;
+
+}
+.interestc1 p{
+	color:black;
+	font-size:25px;
+}
+
+.catto{
+	width:200px;
+	height:200px;
+}
+
+.art{
+	width:25%;
+
+}
+
+.draw{
+	text-align:right;
+}
+
+/*favourite table*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 10%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.end td{
+	border:black;
+}
+
+
+
+
+
