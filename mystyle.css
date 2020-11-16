@@ -163,7 +163,7 @@ td, th {
 }
 
 
-#fav img:hover{/*expands images in class "fav" when hovered*/>
+#fav img:hover{/*expands images in class "fav" when hovered*/
 	width:250px;
 	height:250px;
 	transition: width 1s, height 1s; 
