@@ -3,7 +3,7 @@ body{
     color:white;
     text-align:center;
 }
-
+/*fonts and text*/
 h2{
     font-weight:bolder;
 	font-family:"Courier New", Courier, monospace;
@@ -37,7 +37,8 @@ h1{
 	text-align:left;
 }
 
-#collage{/*image layouts*/
+/*image layouts*/
+#collage{
 	border:dashed #000000;
 
 }
@@ -107,8 +108,8 @@ li{
 }
 
 
-
-.content{/**content text**/
+/**content text**/
+.content{
     float:right;
     width:70%;
 }
@@ -161,11 +162,8 @@ td, th {
   padding: 8px;
 }
 
-.end td{
-	border:black;
-}
 
-#fav img:hover{
+#fav img:hover{/*expands images in class "fav" when hovered*/>
 	width:250px;
 	height:250px;
 	transition: width 1s, height 1s; 
